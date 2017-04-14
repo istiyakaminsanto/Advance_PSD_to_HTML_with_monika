@@ -85,3 +85,45 @@
     text-indent: -999px;
     width: 15px;
 }
+
+#about_us{
+	color: #030303;
+	padding: 110px 0;
+}
+
+#about_us h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.sub_about{
+	font-size: 16px;
+	max-width: 700px;
+	margin: 0px auto;
+	margin-bottom: 60px;
+}
+
+.about_icon{
+	
+}
+
+.about_icon i{
+	font-size: 40px;
+}
+
+.about_icon h3{
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.about_icon p{
+	font-size: 14px;
+}
+
+.about_icon:hover i,
+.about_icon:hover h3{
+	color: #87d37c;
+}
+
