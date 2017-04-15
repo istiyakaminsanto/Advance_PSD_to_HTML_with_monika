@@ -329,5 +329,87 @@ button, select {
     text-transform: uppercase;
 }
 
+#pricing{
+	color: #030303;
+	padding: 110px 0;
+}
+
+#pricing h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.sub_pricing{
+	font-size: 16px;
+	max-width: 700px;
+	margin: 0px auto;
+	margin-bottom: 60px;
+}
+
+
+.pricing_table{
+	background: #39393a;
+	color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+
+}
+
+.pricing_circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    margin: 15px auto;
+    padding: 28px;
+    font-size: 25px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.middle_pricing{
+	margin-top: 25px;
+}
+
+
+.middle_pricing > p > sup{
+	font-size: 15px;
+}
+
+.middle_pricing > p > em{
+    font-size: 30px;
+    padding: 0px;
+}
+
+.middle_pricing > p {
+    font-size: 20px;
+    padding: 0px;
+}
+
+.pricing_table > ul{
+	padding: 0;
+}
+
+.pricing_table > ul > li{
+	list-style: none;
+	border-bottom: 2px solid #FFF;
+	max-width: 150px;
+	max-width: 150px;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+.order_now_btn{
+	color: #000;
+	width: 150px;
+	height: 35px;
+}
+
+.pricing_table:hover{
+	background: #87d37c;
+}
+
 
 
