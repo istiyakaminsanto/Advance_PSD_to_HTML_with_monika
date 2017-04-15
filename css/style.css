@@ -411,5 +411,25 @@ button, select {
 	background: #87d37c;
 }
 
+.pricing_table:hover .order_now_btn{
+	background: #fff;
+	color: #87d37c;
+}
+
+
+.pricing_table:hover .pricing_circle {
+	 width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    margin: 15px auto;
+    padding: 28px;
+    font-size: 25px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #fff;
+    color: #87d37c;
+}
 
 
