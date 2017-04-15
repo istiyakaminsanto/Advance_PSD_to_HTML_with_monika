@@ -243,7 +243,7 @@ body {
 
 .button-group {
   margin-bottom: 20px;
-  margin-left: 270px;
+  margin-left: 185px;
   margin-top: -30px;
 }
 
@@ -264,7 +264,7 @@ body {
 /* ---- isotope ---- */
 
 .grid {
-  
+  text-align: center;
 }
 
 /* clear fix */
@@ -279,12 +279,8 @@ body {
 .element-item {
   position: relative;
   float: left;
-  width: 100px;
-  height: 100px;
-  margin: 5px;
-  padding: 10px;
-  background: #888;
   color: #262524;
+  width: 33%;
 }
 
 .element-item > * {
@@ -292,9 +288,13 @@ body {
   padding: 0;
 }
 
-.element-item .name {
-  position: absolute;
+.element-item img{
+	width: 100%;
+	padding: 15px;
+}
 
+.element-item .name {
+  position: relative;
   left: 10px;
   top: 60px;
   text-transform: none;
@@ -304,7 +304,7 @@ body {
 }
 
 .element-item .symbol {
-  position: absolute;
+  position: hide;
   left: 10px;
   top: 0px;
   font-size: 42px;
@@ -313,13 +313,13 @@ body {
 }
 
 .element-item .number {
-  position: absolute;
+  position: hide;
   right: 8px;
   top: 5px;
 }
 
 .element-item .weight {
-  position: absolute;
+  position: hide;
   left: 10px;
   top: 76px;
   font-size: 12px;
@@ -328,4 +328,6 @@ body {
 button, select {
     text-transform: uppercase;
 }
+
+
 
