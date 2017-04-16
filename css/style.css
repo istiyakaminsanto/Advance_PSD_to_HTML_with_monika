@@ -293,6 +293,9 @@ body {
 	padding: 15px;
 }
 
+bn 
+
+
 .element-item .name {
   position: relative;
   left: 10px;
@@ -432,4 +435,35 @@ button, select {
     color: #87d37c;
 }
 
+#counter_up_area{
+	background: url(../images/counter.jpg);
+}
+
+.counter_overlay{
+	background: rgba(0,0,0, .7);
+	width: 100%;
+}
+
+.counter_content{
+	padding: 100px 0;
+}
+
+.per_count{
+	color: #fff;
+	border: 1px solid #5a5b58;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 100px;
+	font-size: 40px;
+}
+
+.per_count h3{
+	font-size: 20px;
+}
+
+.btn-default {
+    color: white;
+    background-color: #87d37c;
+    border-color: #ccc;
+}
 
