@@ -496,3 +496,8 @@ button, select {
 	color: #87d37c;
 }
 
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background: #00C37B;
+}
