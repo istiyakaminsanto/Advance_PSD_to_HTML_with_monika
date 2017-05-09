@@ -13,6 +13,14 @@
     box-shadow: none;
  }
 
+
+#header {
+        background-color: #000;
+    opacity: .5;
+
+}
+
+
 .navbar-default .navbar-nav > li > a {
     color: white;
 }
@@ -497,7 +505,3 @@ button, select {
 }
 
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: #e7e7e7;
-    background: #00C37B;
-}
