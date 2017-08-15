@@ -44,7 +44,11 @@
 }
 
 #slider{
-	background: url(../images/slider_image.jpg);
+	  background: url(../images/slider_image.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .slide-overlay{
